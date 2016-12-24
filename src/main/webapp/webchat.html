@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="resources/css/style.css"/>
+        <link type="text/css" rel="stylesheet" href="resources/css/stylesheetbig.css"/>
+        <script type="text/javascript" src="resources/js/webchat.js"></script>
+    </head>
+    <title></title>
+    <body>
+        <div id="maincontent">
+
+	<div
+		class="back-image-1">
+
+		<div style="background-color: rgba(0, 0, 0, 0.7);">
+			<div id="userform-div-cover">
+                <table>
+                    <tr>
+                        <td align="center"><button class="" id="loginButton" onclick="loginUser()">Login</button>
+                            <button class="loghide" id="logoutButton" onclick="logoutUser()">Logout</button></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div id="message-area">
+                                <textarea id="message-box"></textarea><br/>
+                                <input id="send-message-box" type="text" placeholder="type here..."/>
+                                <button onclick="sendMessage()">Send Message</button><br/>
+                                <span id="userinfo"></span>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                
+            </div>
+		</div>
+	</div>
+</div>    
+    </body>
+</html>

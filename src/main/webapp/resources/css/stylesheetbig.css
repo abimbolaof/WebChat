@@ -1,0 +1,765 @@
+html {
+    height: 100%;
+    width : 100%;
+    margin : 0;
+    padding : 0;
+    color : white;
+}
+body{
+    /*background-image: url(irokologo.jpg);*/
+    background : black;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height : 100%;
+    width : 100%;
+    padding : 0;
+    margin : 0;
+}
+
+#contact-div{
+ color: white;
+font-family: "Courier New";
+padding: 10px;
+}
+
+#contact-div h3{
+font-size: large;
+}
+
+.section {
+    width : 100%;
+    height : 100%;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    background-color: black;
+    text-align: center;
+    display : table;
+}
+
+.section div  h3{
+    font-size: large;
+}
+
+.section h1 {
+	color: rgb(247, 255, 20);
+	font-family: cursive;
+    font-size :3em;
+}
+
+.section p {
+     font-size:xx-large;
+     font-family: cursive;
+     color: white;
+}
+
+
+
+#storediv table{
+    margin: 0 auto 10px auto;
+    
+}
+
+header {
+    margin : 0;
+    position : fixed;
+    z-index: 44;
+    width : 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+#page-header {
+    margin : 0 5px;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+#page-header #page-logo {
+	width: 100%;
+	display: block;
+	text-align: left;
+}
+
+#page-header #page-logo a{
+    text-decoration: none;
+    color : white;
+    font-size: x-large;
+    font-family: cursive;
+    font-weight: bold;
+    margin : 0;
+    padding: 0; 
+    display: inline-block;
+}
+
+#page-header #sub{
+    font-size: small;
+    color : cornsilk;
+    margin : 0;
+}
+#page-header #page-logo a:hover {
+    cursor: pointer;
+    color: gold;
+    box-sizing: border-box;
+}
+
+#maincontent {
+    min-height: 100%;
+    margin: 0 0 10px 0;
+    padding-top: 80px;
+    display : block;
+    width : 100%;
+    text-align: center;
+    color : white;
+    text-align: center;
+}
+
+#maincontent p {
+	font-size: medium;
+}
+
+.custom-userform-div-cover {
+	margin : 30px 0 50px 0;
+}
+
+#works-ul li{
+	text-align: left;
+}
+
+#userform-div-cover {
+	border-radius : 25px;
+	box-shadow : 0px 10px 30px 20px black;
+	background-color : black;
+	display : inline-block;
+	text-align : center;
+	margin : 50px 0 80px 0;
+	width: auto;
+	padding: 5px;
+}
+
+
+#userform-div-cover p {
+	color: white;
+	font-family: cursive;
+	font-style: bold;
+	font-size: medium;
+}
+
+#contact-list {
+	display:block;
+	padding:0;
+	margin:0;
+}
+
+#contact-list li {
+	display:inline-block;
+	text-align:center;
+	padding: 5px;
+}
+
+#contact-list table {
+	width: 200px;
+        max-width: 100%;
+	padding: 5px;
+}
+
+
+#works-img {
+	width: 25px;
+	height:25px;
+}
+
+#contact-list img {
+	width: 70px;
+	height:70px;
+}
+
+.anim2 {
+    min-height: 4em;
+    height:auto;
+    box-sizing: border-box;
+}
+
+.anim2 li a {
+	display:inlibe-block;
+	width:100%;
+	padding: 5px;
+}
+.user-menu{
+	padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+.user-menu ul{
+	list-style-type: none;
+	height:0;
+	background : rgba(120,100,98,0.8);
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    border-radius: 0 0 0 20px;
+    display: block;
+    
+}
+
+.user-menu ul li{
+	box-sizing:border-box;
+	cursor: pointer;
+	display: block;
+	width: 100%;
+}
+
+.user-menu ul li a{
+	border-radius: 0 0 0 5px;
+	box-sizing:border-box;
+	font-size: medium;
+	font-family: "Courier New";
+	text-decoration: none;
+	color: white;
+	display: inline-block;
+}
+
+.user-menu ul li a:hover{
+	background-color: black;
+	color: gold;
+}
+
+.user-menu img{
+	width: 25px;
+	height: 25px;
+	cursor: pointer;
+	margin:0;
+	padding:5px 0 0 5px;
+}
+
+.userform {
+    margin : 50px 0 0 0;
+    padding : 0;
+    color : white;
+    font-size: medium;
+    font-family: "Courier New";
+}
+
+ .userform #contact-span, #userform-div-cover h3, #userform-div-cover h4  {
+	font-size: xx-large;
+	font-family: cursive;
+	padding:0 15px 0 15px;
+	margin:0 5px 0 5px;
+	color : darkgreen;
+}
+
+
+#poetry-h4 {
+	font-size: xx-large;
+	font-family: cursive;
+	color : white;
+	vertical-align: middle;
+	display : inline-block;
+	margin: 50px 0 50px 0;
+}
+
+#div-poetry-h4 {
+	height:auto;
+	display: block;
+}
+
+.userform .errform{
+	padding:0;
+	margin:0;
+}
+
+.userform .errform ul {
+	text-align: left;
+	list-style-type: none;
+	padding:0;
+	margin:0;
+}
+ .userform .errform ul li{
+	color: red;
+	font-size: x-small;
+	font-family: "Courier New";
+	padding:0;
+	margin:0;
+}
+
+.userform input[type="text"], textarea, input[type="password"], .rform {
+    outline : none;
+    border: none;
+    border-bottom: solid 2px gold;
+    background-color: black;
+    color: white;
+    width: 300px;
+    padding : 5px;
+    box-sizing: border-box;
+    margin : 5px;
+}
+
+.userform textarea {
+	resize : none;
+}
+
+
+.userform input[type="submit"], #home-enter-button, #audio-back-button {
+    outline: none;
+    color: black;
+    background-color: goldenrod;
+    border: solid 2px goldenrod;
+    font-size: large;
+    font-family: cursive;
+    border-radius: 10px;
+    padding : 5px;
+    cursor: pointer;
+    
+}
+
+.userform input[type="submit"]:hover, #home-enter-button:hover,  #audio-back-button:hover {
+	color : white;
+    background-color: black;
+}
+
+.userform input[type="submit"]:active, #home-enter-button:active,  #audio-back-button:active {
+	color : white;
+    background-color: darkgoldenrod;
+}
+
+.color-bracket {
+	color : gold;
+}
+
+.custom-list {
+    padding: 50px 0 0 0;
+}
+
+.custom-list img{
+    width: 100px;
+    height: 100px;
+}
+
+.custom-list a{
+    text-decoration: none;
+    color: white;
+}
+
+#messagesubmit:hover {
+    color : white;
+    background-color: black;
+}
+
+#messagesubmit:submit {
+    color : white;
+    background-color: darkgoldenrod;
+}
+
+
+#loginsubmit:hover {
+    color : white;
+    background-color: black;
+}
+
+#loginsubmit:active {
+    color : white;
+    background-color: darkgoldenrod;
+}
+
+
+.back-image-1 {
+	background-image: url(../../resources/images/sonofiroko_2_small.jpg);
+}
+
+.back-image-2 {
+	background-image: url(../../resources/images/irokologo-2_small.jpg);
+}
+
+#description-div{
+	color: white;
+	padding: 10px;
+	max-width: 400px;
+}
+
+#handle {
+    display : none;
+    width: auto;
+    box-sizing: border-box;
+    top:0;
+    left:0;
+    padding: 0;
+    margin: 0;
+    position:absolute;
+}
+
+footer {
+    background-color: black;
+    width : 100%;
+    text-align: center;
+    color: gold;
+    height : 100px;
+    font-size: small;
+}
+
+#audio-search-button {
+	
+	outline: none;
+    color: black;
+    background-color: goldenrod;
+    border: solid 2px goldenrod;
+    font-size: small;
+    font-family: cursive;
+    border-radius: 10px;
+    padding : 2px;
+    cursor: pointer;
+    margin:0;
+}
+
+#audio-search-button:hover {
+	color: white;
+	background-color: black;
+}
+
+#audio-search-button:active {
+	color: white;
+	background-color: darkgoldenrod;
+}
+
+#cover-image {
+	width: 100px;
+	height: 100px;
+}
+
+.audio-list-div, .audio-play-div {
+	display: block;
+	padding-top: 10px;
+	text-align: center;
+	width: 100%;
+	font-size: medium;
+}
+
+.audio-play-div > div {
+	border-radius : 25px;
+	box-shadow : 0px 5px 15px 10px darkgoldenrod;
+	background-color : black;
+	display : inline-block;
+	text-align : center;
+	margin : 10px 0 10px 0;
+	width: auto;
+	padding: 10px;
+	color : white;
+}
+
+
+
+#item-transcript-p {
+	width:auto;
+	overflow-y:auto;
+}
+
+.audio-list-div table tr {
+	padding: 5px;
+	margin: 0;
+	
+}
+
+.audio-list-div table tr td {
+	padding: 5px;
+	margin: 0;
+}
+
+.audio-list-div ul{
+	display : inline-block;
+	list-style-type : none;
+	padding: 0;
+	margin: 0;
+	/* list-style-type : decimal-leading-zero; */
+	text-align: center;
+}
+
+.audio-list-div ul li{
+	color: white;
+	text-align: left;
+	padding: 5px;
+	box-sizing:border-box;
+	border-radius: 15px;
+	margin: 2px 2px;
+	cursor: pointer;
+	width: 400px;
+	max-width:100%;
+}
+
+.audio-list-div ul li:hover{
+	background-color: black;
+	box-shadow : 1px 1px 4px 1px rgb(255,255,5);
+}
+
+.audio-list-div ul li:nth-child(odd){
+	border: solid 3px rgba(128,128,128,0.5);
+}
+
+.audio-list-div ul li:nth-child(even){
+	border: solid 3px rgba(218,165,32,0.5);
+}
+
+#info-table {
+	font-size: small;
+}
+
+#audio-stay-bottom {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+
+.disappear {
+	display : none;
+}
+
+#navbar ul li{
+    list-style-type: none;
+    display: inline;
+    text-align: left;
+    font-family: "Courier New";
+    font-weight: bold;
+    box-sizing: border-box;
+    margin : 0 5px;
+    width: auto;
+}
+
+.userblock {
+    /* float : right; */
+    top:0;
+    right:0;
+    color : green;
+    position: absolute; 
+    overflow: hidden;
+    font-size: medium;
+    margin: 5px 0 0 0;
+    padding:0;
+    box-sizing: border-box;
+    z-index: 55;
+    width:85px;
+}
+
+.userblock span {
+	background-color : black;
+	border-radius : 5px;
+	border : solid 1px white;
+	padding : 0 2px 0 2px;
+}
+
+#navbar ul a{
+    margin : 0;
+    border-radius: 10px;
+    padding : 5px 5px;
+    font-size: large;
+    text-decoration: none;
+    color : gold;
+    background-color: rgba(0,0,0,0);
+    /*transition: background-color ease-in-out 0.3s;
+    -moz-transition: background-color ease-in-out 0.3s;
+    -o-transition: background-color ease-in-out 0.3s;
+    -ms-transition: background-color ease-in-out 0.3s;
+    -webkit-transition: background-color ease-in-out 0.3s;*/
+}
+
+#navbar ul a:hover{
+    color : white;
+    /*background-color: rgba(0,0,0,1);*/
+}
+
+#navbar ul a:active{
+    color : gold;
+}
+
+
+#navbar ul {
+    margin : 0;
+    padding : 0;
+    text-align: left;
+    display : inline;
+    width: auto;
+}
+
+#navbar {
+    margin : 0;
+    box-sizing: border-box;
+    padding : 10px 0 10px 0;
+    height : auto;
+    box-shadow : 0px 3px 4px 0px black;
+    /*background : gold;
+    background : linear-gradient(to right, gold, darkgoldenrod);
+    background : -o-linear-gradient(to right, gold, darkgoldenrod);
+    background : -ms-linear-gradient(to right, gold, darkgoldenrod);
+    background : -moz-linear-gradient(to right, gold, darkgoldenrod);
+    background : -ms-linear-gradient(to right, gold, darkgoldenrod);*/
+    /*opacity: 0.8;*/
+    /*background-image : url(8_55_Pro_edited_font_harlow_solid_italic.jpg);*/
+}
+
+#search-form {
+    margin : 5px 0 0 0;
+    paddin:0;
+}
+
+#searchbox {
+    outline: none;
+    font-family : "Courier New";
+    color : white;
+    background-color : black;
+    font-size : small;
+    border : solid 2px rgba(255,255,255,0.6);
+    padding : 2px 15px;
+    border-radius : 10px;
+    width: auto;
+    /*width : auto;*/
+    margin : 0 0 5px 0;
+    width: 400px;
+}
+
+#searchbox:focus {
+    box-shadow : 1px 1px 4px 1px white;
+}
+/*<link rel="stylesheet" type="text/css" href="stylesheetbig.css" media="only screen and (min-width:769px), (min-device-width:769px)"/>
+    <link rel="stylesheet" type="text/css" href="stylesheetbig.css" media="only screen and (-webkit-min-device-pixel-ratio: 2) and (min-device-width:769px)"/>
+    <link rel="stylesheet" type="text/css" href="stylesheetsmall.css" media="only screen and (max-width:768px), (max-device-width:769px)"/>
+    <link rel="stylesheet" type="text/css" href="stylesheetsmall.css" media="only screen and (-webkit-min-device-pixel-ratio: 2) and (min-device-width:769px)"/>*/
+
+
+@media only screen and (max-width:769px), only screen and (max-device-width:769px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-device-width:769px){
+    
+#page-header #page-logo {
+	text-align: center;
+}
+
+#page-header #page-logo a{
+    font-size: large;
+}
+
+#handle {   
+    display : block;
+    vertical-align: middle;
+}
+    
+#handle img {
+    cursor: pointer;
+    padding : 0;
+    box-sizing: border-box;
+    float: left;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+
+#navbar {
+    margin: 10px 0 0 0;
+    padding : 0;
+    box-sizing: border-box;
+    
+}
+
+#navbar ul {
+    overflow: hidden;
+    margin : 0;
+    text-align: left;
+    padding : 0;
+    display: block;
+    height:0;
+    background : rgba(0,0,0,0.8);
+    width: 200px;
+    max-width: 100%;
+	position: absolute;
+	float: left;
+    border-radius: 0 0 30px 0;
+    
+}
+
+#navbar ul li{
+    overflow: hidden;
+    margin : 0;    
+}
+
+
+.anim {
+    min-height: 10em;
+}
+
+
+#navbar ul a{
+    display: block;
+    overflow: hidden;
+    font-size: medium;
+    padding: 10px;
+}
+
+#navbar ul a:hover{
+    color : white;
+    background-color: black;
+}
+
+#navbar ul a:active{
+    color : gold;
+}
+    
+#contactform label, input[type="text"], textarea {
+    width: 240px;
+    max-width: 100%;
+}
+
+.userform span {
+	font-size: 1em;
+}
+
+#userform-div-cover h3, #userform-div-cover h4, #poetry-h4 {
+	font-size: medium;
+}
+
+#userform-div-cover p {
+	font-size: small;
+}
+
+.userform input[type="text"], textarea, input[type="password"], .rform {
+    
+    width: 240px;
+    max-width: 100%;
+}
+
+#searchbox {
+	width: auto;
+}
+
+.audio-list-div {
+	font-size: x-small;
+	width: 100%;
+}
+
+
+.audio-list-div ul li{
+	width: 280px;
+	max-width: 100%;
+}
+
+
+#maincontent p {
+	font-size: small;
+}
+
+
+.audio-play-div > div {
+	/* width: 200px; */
+	max-width: 100%;
+}
+
+ #audio-player {
+	/* width: 200px; */
+	background-color: black;
+	color: gold;
+	max-width: 100%;
+}
+    
+#contact-div h3{
+    font-size: medium;
+}
+    
+.custom-list img{
+    width: 80px;
+    height: 80px;
+}
+}
